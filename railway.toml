@@ -1,0 +1,15 @@
+[build]
+nixpacks = true
+
+[deploy]
+numReplicas = 1
+
+[nixpacks]
+pkgs = [
+  "libgcc",
+  "libglib",
+  "libglvnd",
+  "libglvnd.dev",
+  "libxcb",
+  "ffmpeg"
+]
